@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dim_32"
+    android:layout_marginVertical="@dimen/dim_8">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/rictangle_update"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/show_client_newt_offer_shape_recycler_txt_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim_16"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingEnd="@dimen/dimen_50"
+            android:paddingStart="@dimen/dim_8"
+            android:text="fdfdffdddddddddddddddddddddddddddddddddddddddddffffff" />
+
+        <Button
+            android:id="@+id/show_client_newt_offer_shape_recycler_btn_details"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/rectangle56"
+            android:text="@string/details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/show_client_newt_offer_shape_recycler_cimg_circle_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

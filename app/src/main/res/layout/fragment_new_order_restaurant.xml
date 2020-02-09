@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.fragment.restaurant.NewOrderRestaurantFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_previous_order_restaurant__sypf_swipfresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_previous_order_restaurant_rcy_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:listitem="@layout/show_restaurant_new_order_shape_recycler" />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </FrameLayout>

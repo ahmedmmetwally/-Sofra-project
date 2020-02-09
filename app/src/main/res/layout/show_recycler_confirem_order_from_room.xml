@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="@dimen/dim_16"
+        android:background="@drawable/rictangle_stroke_grey">
+
+        <ImageView
+            android:id="@+id/show_recycler_confirem_order_from_room_img_photo_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/dim_16"
+            android:background="@drawable/rictangle_stroke_grey" />
+
+        <TextView
+            android:id="@+id/show_recycler_confirem_order_from_room_txt_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="@dimen/dim_8"
+            android:layout_marginTop="@dimen/dim_32"
+            android:layout_toLeftOf="@+id/show_recycler_confirem_order_from_room_img_photo_item"
+            android:text="@string/naem"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/show_recycler_confirem_order_from_room_txt_item_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="@dimen/dim_8"
+            android:layout_marginTop="@dimen/dim_32"
+            android:layout_toLeftOf="@+id/show_recycler_confirem_order_from_room_txt_item_name"
+            android:text="@string/naem"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <LinearLayout
+            android:layout_marginHorizontal="@dimen/dim_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/show_recycler_confirem_order_from_room_txt_item_name"
+            android:layout_toStartOf="@+id/show_recycler_confirem_order_from_room_img_photo_item"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/show_recycler_confirem_order_from_room_btn_plus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_with_strok"
+               android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="+"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_recycler_confirem_order_from_room_txt_quantity"
+                android:layout_width="@dimen/dimen_50"
+                android:layout_height="@dimen/dimen_50"
+                android:layout_marginHorizontal="@dimen/dim_8"
+                android:background="@drawable/rictangle_stroke_grey"
+                android:gravity="center"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/show_recycler_confirem_order_from_room_btn_minus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_with_strok"
+                android:gravity="center"
+                android:text="-"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/show_restaurant_my_item_shape_recycler_btn_delete"
+            android:layout_width="@dimen/dimen_50"
+            android:layout_height="@dimen/dimen_50"
+            android:layout_marginStart="@dimen/dim_8"
+            android:layout_marginTop="@dimen/dimen_50"
+            android:background="@drawable/circle_red"
+            android:text="x"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

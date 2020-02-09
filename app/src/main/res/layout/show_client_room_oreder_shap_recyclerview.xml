@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="horizontal"
+    android:background="@drawable/rectangle_shap2_grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/coin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/show_client_room_oreder_shap_recyclerview_txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/dim_8"
+        android:text="@string/Duration_of_arrival"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/show_client_room_oreder_shap_recyclerview_txt_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/dim_32"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+</LinearLayout>

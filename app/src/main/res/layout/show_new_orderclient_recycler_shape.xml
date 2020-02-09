@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/rectangel_shapee_greylight"
+    android:layout_margin="@dimen/dim_8">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/show_new_orderclient_recycler_shape_img_customer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dim_32"
+        android:src="@drawable/person_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/show_new_orderclient_recycler_shape_txt_num_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/dim_32"
+        android:layout_marginHorizontal="@dimen/dim_8"
+        android:layout_toStartOf="@id/show_new_orderclient_recycler_shape_img_customer"
+        android:text="@string/oreder_number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/show_new_orderclient_recycler_shape_order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_32"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@id/show_new_orderclient_recycler_shape_txt_num_"
+        android:text="@string/tt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:id="@+id/show_new_orderclient_recycler_shape_txt_tot_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_new_orderclient_recycler_shape_txt_num_"
+        android:layout_marginHorizontal="@dimen/dim_8"
+        android:layout_toStartOf="@id/show_new_orderclient_recycler_shape_img_customer"
+        android:text="@string/total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/show_new_orderclient_recycler_shape_order_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_new_orderclient_recycler_shape_order_number"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@+id/show_new_orderclient_recycler_shape_txt_num_"
+        android:text="@string/tt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:id="@+id/show_new_orderclient_recycler_shape_txt_adr_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_new_orderclient_recycler_shape_order_total"
+        android:layout_marginHorizontal="@dimen/dim_8"
+        android:layout_toStartOf="@id/show_new_orderclient_recycler_shape_img_customer"
+        android:text="@string/adress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/show_new_orderclient_recycler_shape_order_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_new_orderclient_recycler_shape_img_customer"
+        android:layout_alignBaseline="@id/show_new_orderclient_recycler_shape_txt_adr_"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@+id/show_new_orderclient_recycler_shape_txt_adr_"
+        android:text="@string/tt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp"
+
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/show_new_orderclient_recycler_shape_rl_all"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dimen_50"
+        android:layout_marginBottom="@dimen/dim_8"
+        android:background="@drawable/rectangle56"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:drawableEnd="@drawable/arrow_sign_in"
+            android:gravity="center_vertical"
+            android:text="@string/confirm_delivery"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

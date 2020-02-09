@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mysofra"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:8:5-69
+14-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:8:22-66
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:24:5-65
+15-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:24:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:26:5-81
+16-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:26:22-78
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:27:5-71
+17-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:27:22-68
+18
+19    <application
+19-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:10:5-29:19
+20        android:allowBackup="true"
+20-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:12:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:13:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:14:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:15:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:16:9-40
+29        <activity android:name="com.example.mysofra.ui.ClientAddCommientDialogBox" />
+29-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:17:9-76
+29-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:17:19-64
+30        <activity android:name="com.example.mysofra.ui.AlertDialoug" />
+30-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:18:9-53
+30-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:18:19-50
+31        <activity android:name="com.example.mysofra.ui.activity.RestaurantHomeActivity" />
+31-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:19:9-72
+31-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:19:19-69
+32        <activity android:name="com.example.mysofra.ui.activity.RestaurntLoginActivity" />
+32-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:20:9-72
+32-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:20:19-69
+33        <activity android:name="com.example.mysofra.ui.activity.ClientHomeActivity" />
+33-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:21:9-68
+33-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:21:19-65
+34        <activity android:name="com.example.mysofra.ui.activity.StartUpActivity" >
+34-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:22:9-28:20
+34-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:22:19-62
+35            <intent-filter>
+35-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:23:13-27:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:24:17-69
+36-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:24:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:26:17-77
+38-->C:\Users\ahmed\AndroidStudioProjects\MySofra\app\src\main\AndroidManifest.xml:26:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:30:9-34:75
+42            android:name="com.yanzhenjie.album.app.album.AlbumActivity"
+42-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:31:13-72
+43            android:configChanges="orientation|screenSize"
+43-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:32:13-59
+44            android:theme="@style/Album.Theme.Activity"
+44-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:33:13-56
+45            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+45-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:34:13-72
+46        <activity
+46-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:35:9-39:75
+47            android:name="com.yanzhenjie.album.app.album.GalleryActivity"
+47-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:36:13-74
+48            android:configChanges="orientation|screenSize"
+48-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:37:13-59
+49            android:theme="@style/Album.Theme.Activity"
+49-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:38:13-56
+50            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+50-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:39:13-72
+51        <activity
+51-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:40:9-44:75
+52            android:name="com.yanzhenjie.album.app.album.NullActivity"
+52-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:41:13-71
+53            android:configChanges="orientation|screenSize"
+53-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:42:13-59
+54            android:theme="@style/Album.Theme.Activity"
+54-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:43:13-56
+55            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+55-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:44:13-72
+56        <activity
+56-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:45:9-49:75
+57            android:name="com.yanzhenjie.album.app.gallery.GalleryActivity"
+57-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:46:13-76
+58            android:configChanges="orientation|screenSize"
+58-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:47:13-59
+59            android:theme="@style/Album.Theme.Activity"
+59-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:48:13-56
+60            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+60-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:49:13-72
+61        <activity
+61-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:50:9-54:75
+62            android:name="com.yanzhenjie.album.app.gallery.GalleryAlbumActivity"
+62-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:51:13-81
+63            android:configChanges="orientation|screenSize"
+63-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:52:13-59
+64            android:theme="@style/Album.Theme.Activity"
+64-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:53:13-56
+65            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+65-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:54:13-72
+66        <activity
+66-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:55:9-59:75
+67            android:name="com.yanzhenjie.album.app.camera.CameraActivity"
+67-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:56:13-74
+68            android:configChanges="orientation|screenSize"
+68-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:57:13-59
+69            android:theme="@style/Album.Theme.Activity.Transparent"
+69-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:58:13-68
+70            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+70-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:59:13-72
+71
+72        <provider
+72-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:61:9-70:20
+73            android:name="com.yanzhenjie.album.provider.CameraFileProvider"
+73-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:62:13-76
+74            android:authorities="com.example.mysofra.app.file.provider"
+74-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:63:13-69
+75            android:exported="false"
+75-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:64:13-37
+76            android:grantUriPermissions="true"
+76-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:65:13-47
+77            android:multiprocess="true" >
+77-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:66:13-40
+78            <meta-data
+78-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:67:13-69:65
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:68:17-67
+80                android:resource="@xml/album_camera_provider" />
+80-->[com.yanzhenjie:album:2.1.3] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\03207d0d344d88220ee99a173e420566\jetified-album-2.1.3\AndroidManifest.xml:69:17-62
+81        </provider>
+82
+83        <service
+83-->[androidx.room:room-runtime:2.2.1] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\83854f0fd8f5ed294035147d4e7a6c15\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+84            android:name="androidx.room.MultiInstanceInvalidationService"
+84-->[androidx.room:room-runtime:2.2.1] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\83854f0fd8f5ed294035147d4e7a6c15\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+85            android:exported="false" />
+85-->[androidx.room:room-runtime:2.2.1] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\83854f0fd8f5ed294035147d4e7a6c15\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+86
+87        <provider
+87-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+88            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+89            android:authorities="com.example.mysofra.lifecycle-process"
+89-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+90            android:exported="false"
+90-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+91            android:multiprocess="true" />
+91-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\ahmed\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+92    </application>
+93
+94</manifest>

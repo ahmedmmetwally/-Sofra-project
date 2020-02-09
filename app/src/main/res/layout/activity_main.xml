@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activit_splash"
+    tools:context=".ui.activity.StartUpActivity"
+
+    >
+    <FrameLayout
+        android:visibility="visible"
+        android:id="@+id/activit_splash_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/greydark"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/start_activity_img_topplate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-60dp"
+                android:layout_marginTop="-60dp"
+                android:src="@drawable/plate_top" />
+
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="180dp"
+                android:src="@drawable/sofralogo" />
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/start_activity_img_topplate"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="205dp"
+
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/start_activity_btn_foodrequest"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rectangle56"
+                    android:text="@string/food_request"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/start_activity_btn_restourant_register"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/rectangle56"
+                    android:text="@string/sell_food"
+                    android:textColor="@color/white"
+
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/start_activity_img_bottomplate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-60dp"
+                android:layout_marginEnd="-60dp"
+                android:layout_marginBottom="-60dp"
+
+                android:src="@drawable/plate_top" />
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</FrameLayout>
+

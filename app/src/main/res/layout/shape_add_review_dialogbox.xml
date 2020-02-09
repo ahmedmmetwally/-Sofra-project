@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rectangle_shap2_grey"
+    android:orientation="vertical"
+    tools:context=".ui.ClientAddCommientDialogBox">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dim_16"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/choose_your_rating"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dim_32"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:text="@string/select_image_rate"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_5"
+        android:layout_marginBottom="@dimen/dim_32"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shape_add_review_dialogbox_img_rate1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/rate1"/>
+
+        <ImageView
+            android:id="@+id/shape_add_review_dialogbox_img_rate2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/rate2"/>
+
+        <ImageView
+            android:id="@+id/shape_add_review_dialogbox_img_rate3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/rate3"/>
+
+        <ImageView
+            android:id="@+id/shape_add_review_dialogbox_img_rate4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rate4"/>
+
+        <ImageView
+            android:id="@+id/shape_add_review_dialogbox_img_rate5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rate5"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/shape_add_review_dialogbox_edt_commint"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="@dimen/dim_32"
+        android:background="@drawable/rectangel_shape_white"
+        android:hint="@string/add_your_comment_here"
+        android:padding="@dimen/dim_8"/>
+
+    <Button
+        android:id="@+id/shape_add_review_dialogbox_btn_add"
+        android:layout_marginVertical="@dimen/dim_32"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:text="@string/add"
+        android:background="@drawable/rectangle56"/>
+
+</LinearLayout>

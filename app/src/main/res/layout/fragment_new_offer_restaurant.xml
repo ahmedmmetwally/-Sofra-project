@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.restaurant.MyOfferRestaurantFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_offers"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textSize="25sp"
+        android:layout_marginBottom="@dimen/dim_32"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_new_offer_restaurant_sf_swipe_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_new_offer_restaurant_rc_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/show_restaurant_my_offer_shape_recycler"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/fragment_new_offer_restaurant_btn_add_new_offer"
+        android:layout_marginTop="@dimen/dim_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add_new_offers"
+        android:background="@drawable/rectangle56"/>
+
+</LinearLayout>

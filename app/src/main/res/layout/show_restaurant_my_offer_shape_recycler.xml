@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:dragEdge="left"
+    app:mode="same_level"
+    android:layout_marginVertical="@dimen/dim_8">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/show_restaurant_my_offer_shape_recycler_img_edit"
+            android:layout_width="@dimen/dimen_50"
+            android:layout_height="@dimen/dimen_50"
+            android:layout_margin="@dimen/dim_5"
+            android:src="@drawable/edit_black_24dp"/>
+        <ImageView
+
+        android:id="@+id/show_restaurant_my_offer_shape_recycler_img_delete"
+        android:layout_width="@dimen/dimen_50"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_margin="@dimen/dim_5"
+        android:src="@drawable/messageshape"/>
+
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:paddingHorizontal="@dimen/dim_32"
+
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/rictangle_update"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/show_restaurant_my_offer_shape_recycler_txt_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim_16"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingStart="@dimen/dim_8"
+            android:paddingEnd="@dimen/dimen_50"
+            android:text="fdfdffdddddddddddddddddddddddddddddddddddddddddffffff" />
+
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/show_restaurant_my_offer_shape_recycler_cimg_circle_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

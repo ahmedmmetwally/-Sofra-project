@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim_16"
+    tools:context=".ui.fragment.restaurant.EditResProfile2Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rictangle_update"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:padding="@dimen/dim_8">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/messageshape" />
+
+            <EditText
+                android:id="@+id/_fragment_edit_restaurant_profile_continu_edt_minimum_charg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rictangle_update"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:padding="@dimen/dim_8">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/alarm_time_black_24dp" />
+
+            <EditText
+                android:id="@+id/_fragment_edit_restaurant_profile_continu_edt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="@dimen/dim_32"
+            android:layout_marginTop="@dimen/dim_25"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:padding="@dimen/dim_16">
+
+
+            <TextView
+                android:id="@+id/_fragment_edit_restaurant_profile_continutxt_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <Switch
+                android:id="@+id/_fragment_edit_restaurant_profile_continusw_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_16"
+
+                android:layoutDirection="rtl" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dim_16"
+            android:layout_marginEnd="@dimen/dimen_50"
+            android:text="@string/delivery_data"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rictangle_update"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:padding="@dimen/dim_8">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/phone24dp" />
+
+            <EditText
+                android:id="@+id/_fragment_edit_restaurant_profile_continu_edt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rictangle_update"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:padding="@dimen/dim_8">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/watts_36" />
+
+            <EditText
+                android:id="@+id/_fragment_edit_restaurant_profile_continu_edit_watts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/_fragment_edit_restaurant_profile_continubtn_continue"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_50"
+            android:background="@drawable/rectangle56"
+            android:text="@string/update"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+    </LinearLayout>
+</ScrollView>

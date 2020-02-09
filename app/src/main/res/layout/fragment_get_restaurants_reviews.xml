@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ui.fragment.client.homeFragment.GetRestaurantsReviewsFragment">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/happy_share_comment_rating"
+       android:textSize="23sp"
+       android:textAppearance="@style/TextAppearance.AppCompat.Large"
+       android:layout_marginTop="@dimen/dim_16"/>
+    <Button
+        android:id="@+id/fragment_get_restaurants_reviews_btn_addreview"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_comment_rate"
+        android:background="@drawable/rectangle56"
+        android:textSize="23sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginVertical="@dimen/dim_8"
+        android:textColor="@color/white"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_get_restaurants_reviews_swip_swipeRefreshLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_get_restaurants_reviews_rcycler_show_review"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/show_restaurant_review_shape_recycler"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

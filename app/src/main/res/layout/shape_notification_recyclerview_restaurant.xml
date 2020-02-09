@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/dim_16"
+    android:background="@drawable/rictangle_stroke_grey"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/shape_notification_recyclerview_restaurant_txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/shape_notification_recyclerview_restaurant_img_image"
+
+            android:layout_width="70sp"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="@dimen/dim_8"/>
+        <TextView
+            android:id="@+id/shape_notification_recyclerview_restaurant_txt_notification"
+
+            android:padding="@dimen/dim_5"
+            android:layout_width="290dp"
+            android:layout_height="70dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+
+</LinearLayout>

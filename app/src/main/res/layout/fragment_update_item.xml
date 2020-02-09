@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="@dimen/dim_16"
+    tools:context=".ui.fragment.restaurant.UpdateItemFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim_8"
+            android:paddingHorizontal="@dimen/dim_16"
+            android:text="@string/add_pic_to_review"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/fragment_update_item_img_item_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim_16"
+            android:src="@drawable/image_black_24dp" />
+
+        <EditText
+            android:id="@+id/fragment_update_item_edt_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rictangle_stroke_grey"
+            android:hint="@string/name_of_review"
+            android:paddingHorizontal="@dimen/dim_16" />
+
+        <EditText
+            android:id="@+id/fragment_update_item_edt_descriptin"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rictangle_stroke_grey"
+            android:hint="@string/prief_description"
+            android:paddingHorizontal="@dimen/dim_16" />
+
+        <EditText
+            android:id="@+id/fragment_update_item_edt_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:inputType="number"
+            android:background="@drawable/rictangle_stroke_grey"
+            android:hint="@string/price"
+            android:paddingHorizontal="@dimen/dim_16" />
+        <EditText
+            android:id="@+id/fragment_update_item_edt_price_in_offer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/dim_16"
+            android:inputType="number"
+            android:background="@drawable/rictangle_stroke_grey"
+            android:hint="@string/enter_price_inoffer"
+            android:paddingHorizontal="@dimen/dim_16" />
+
+
+        <Button
+            android:id="@+id/fragment_update_item_btn_update"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim_32"
+            android:background="@drawable/rectangle56"
+            android:text="@string/add"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

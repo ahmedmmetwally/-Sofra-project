@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/rectangle_shap2_grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_50"
+        android:text="@string/sign_out"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/shape_sign_out_alterdialog_close"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="@dimen/dimen_50"
+            android:background="@drawable/circle_with_strok"
+            android:src="@drawable/close_black_24dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/shape_sign_out_alterdialog_sure"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="@dimen/dimen_50"
+            android:background="@drawable/circle_with_strok"
+            android:src="@drawable/check_black_24dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

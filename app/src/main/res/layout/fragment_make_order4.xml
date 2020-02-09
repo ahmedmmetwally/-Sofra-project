@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dim_16"
+    android:fillViewport="true"
+    tools:context=".ui.fragment.client.homeFragment.MakeOrder4Fragment">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/fragment_make_order4_img_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/rectangle_shape" />
+
+    <LinearLayout
+        android:id="@+id/show_restaurant_items_shape_linear_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rictangle_stroke_grey"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/dim_16"
+        android:textDirection="rtl">
+
+        <TextView
+            android:id="@+id/fragment_make_order4_txt_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_16"
+            android:text="ddddddddd"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/fragment_make_order4_txt_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ddddddddd"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_make_order4_txt_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ddddddddd"
+                android:textSize="23sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+       android:layout_below="@+id/show_restaurant_items_shape_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="@dimen/dim_16"/>
+<TextView
+    android:layout_gravity="end"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:text="@string/special_order"
+    />
+        <EditText
+            android:id="@+id/fragment_make_order4_edt_enter_order"
+
+            android:background="@drawable/rictangle_stroke_grey"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="@string/enter_your_order_here"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="@dimen/dim_16"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/quantity"/>
+            <Button
+                android:id="@+id/fragment_make_order4_btn_plus"
+
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_with_strok"
+                android:text="+"
+                android:textSize="30sp"
+                />
+            <TextView
+                android:id="@+id/fragment_make_order4_txt_quantity"
+                android:layout_marginHorizontal="@dimen/dim_32"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="1"
+                android:inputType="number"
+                android:background="@drawable/rictangle_stroke_grey"/>
+            <Button
+                android:id="@+id/fragment_make_order4_btn_minus"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_with_strok"
+                android:text="-"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+<Button
+    android:id="@+id/fragment_make_order4_btn_save"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/car"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/dim_32"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

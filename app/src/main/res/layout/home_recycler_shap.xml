@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangel_shapee_greylight"
+            android:layout_toStartOf="@+id/fragment_home_img_restaurnt_profile"
+            android:layout_marginEnd="-50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fragment_home_txt_open_close"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_8"
+                android:layout_marginTop="30dp"
+                android:text="fdffff" />
+
+            <ImageView
+                android:id="@+id/fragment_home_img_on_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/circle14" />
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="23dp"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fragment_home_txt_restaurnt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="دجاج كنتاكى"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23sp" />
+
+               <RatingBar
+                   android:id="@+id/fragment_home_rtb_rating_bar"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   style="?android:attr/ratingBarStyleSmall"
+                   android:numStars="5"
+                   android:stepSize=".1"
+                   android:isIndicator="true"
+
+                   />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim_8"
+                    android:layout_marginBottom="@dimen/dim_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الحد الادنى للطلب :" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_txt_requst_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="55 طلب" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim_5"
+                    android:layout_marginBottom="@dimen/dim_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="رسوم التوصيل :" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_txt_delevery_cost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="55 ريال" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--       <LinearLayout-->
+        <!--           android:layout_marginTop="@dimen/dim_25"-->
+        <!--           android:layout_width="wrap_content"-->
+        <!--           android:layout_height="wrap_content"-->
+        <!--           android:layout_centerInParent="true"-->
+        <!--           android:orientation="vertical"-->
+        <!--           android:layout_alignParentEnd="true"-->
+        <!--           android:background="@drawable/circle_shape_resturnt_image"-->
+        <!--           android:layout_marginEnd="@dimen/dim_16">-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fragment_home_img_restaurnt_profile"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="@dimen/dim_16"
+            android:background="@drawable/circle_shape_resturnt_image" />
+        <!--       </LinearLayout>-->
+
+
+    </RelativeLayout>
+</RelativeLayout>

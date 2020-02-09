@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.restaurant.restaurantCycle.MoreRestaurantFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dim_8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim_16"
+            android:text="@string/moree"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:id="@+id/fragment_register_linl_my_offers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/dim_8"
+                android:text="@string/my_offers"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/person_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_register_linl_contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/dim_8"
+                android:text="@string/contact_us"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/messageshape" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_register_linl_about_application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/dim_8"
+                android:text="@string/about_app"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/messageshape" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fragment_register_lnl_comments_and_ranting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/dim_8"
+                android:text="@string/restaurants_comments_and_ratings"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/lock" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_register_linl_chang_passewrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/dim_8"
+                android:text="@string/chang_password"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/lock" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_register_linl_register_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/dim_8"
+                android:text="@string/register_out"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/messageshape" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

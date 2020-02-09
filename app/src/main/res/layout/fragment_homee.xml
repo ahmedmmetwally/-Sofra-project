@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/dim_16"
+    tools:context=".ui.fragment.client.homeFragment.HomeFragmentt">
+  <LinearLayout
+      android:paddingTop="@dimen/dim_8"
+      android:paddingEnd="@dimen/dim_16"
+      android:paddingBottom="@dimen/dim_16"
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:orientation="horizontal"
+      android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_shape">
+      <Button android:id="@+id/fragment_home_btn_search"
+          android:layout_width="25dp"
+          android:layout_height="20dp"
+          android:background="@drawable/search_black_24dp"/>
+
+      <EditText
+          android:id="@+id/fragment_home_edtL_word"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@null"
+          android:gravity="center_vertical"
+          android:hint="@string/search_for_favourit_restaurant" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_shape">
+
+      <Spinner
+          android:id="@+id/fragment_home_spn_city"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layoutDirection="rtl" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+
+  <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+      android:id="@+id/homeFragment_swipe_fresh"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeFragment_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/home_recycler_shap" />
+
+  </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

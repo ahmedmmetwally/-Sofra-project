@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_32"
+    android:fillViewport="true"
+    tools:context=".ui.fragment.client.homeFragment.NewOrderDetails7Fragment">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/fragment_new_order_details7_txt_request_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dim_16"
+            android:gravity="center_vertical"
+            android:text="@string/request_details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_new_order_details7_rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/fragment_new_order_details7_txt_request_deta"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_16">
+
+
+            <EditText
+                android:id="@+id/fragment_new_order_details7_edt_add_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/add_notification"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fragment_new_order_details7_txt_adres_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_new_order_details7_rl_container"
+            android:layout_alignParentEnd="true"
+            android:text="@string/delivery_adress"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/fragment_new_order_details7_edt_delivery_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_new_order_details7_txt_adres_"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:text="yyyyyyyy"
+            android:textColor="@color/redre"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fragment_new_order_details7_txt_paying_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_new_order_details7_edt_delivery_adress"
+            android:layout_alignParentEnd="true"
+            android:text="@string/paying_off"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fragment_new_order_details7_txt_payin_on_delivery_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_new_order_details7_txt_paying_"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:text="@string/cash_on_delivery"
+            android:textColor="@color/redre"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/fragment_new_order_details7_txt_payin_online_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_new_order_details7_txt_paying_"
+            android:layout_alignBaseline="@id/fragment_new_order_details7_txt_payin_on_delivery_"
+            android:layout_alignParentStart="true"
+            android:layout_marginVertical="@dimen/dim_8"
+            android:text="@string/online_payment"
+            android:textColor="@color/redre"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/fragment_new_order_details7_rg_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_new_order_details7_txt_payin_on_delivery_"
+            android:orientation="horizontal"
+
+            >
+
+            <RadioButton
+                android:id="@+id/fragment_new_order_details7_rb_payin_on_delivery"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_with_strok"
+                android:gravity="center"
+               />
+
+            <RadioButton
+                android:id="@+id/fragment_new_order_details7_rb_online_pay"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="180dp"
+                android:background="@drawable/circle_with_strok" />
+        </RadioGroup>
+
+
+        <RelativeLayout
+            android:id="@+id/fragment_new_order_details7_rl_con_"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_below="@+id/fragment_new_order_details7_rg_radio_group"
+            android:background="@drawable/rectangel_shape_white"
+            android:padding="@dimen/dim_5">
+
+            <TextView
+                android:id="@+id/fragment_new_order_details7_txt_total_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/total"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_new_order_details7_txt_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="@dimen/dim_8"
+                android:layout_toLeftOf="@+id/fragment_new_order_details7_txt_total_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_new_order_details7_txt_charg_deli_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_new_order_details7_txt_total"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_new_order_details7_txt_charg_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_new_order_details7_txt_total"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_toLeftOf="@+id/fragment_new_order_details7_txt_charg_deli_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_new_order_details7_txt_totalamou_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_new_order_details7_txt_charg_delivery"
+                android:layout_alignParentEnd="true"
+                android:text="@string/total_amount"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_new_order_details7_txt_total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_new_order_details7_txt_charg_delivery"
+                android:layout_toLeftOf="@+id/fragment_new_order_details7_txt_totalamou_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/fragment_new_order_details7rl_contain_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_new_order_details7_rl_con_"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rectangle56"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_delivery"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>
+

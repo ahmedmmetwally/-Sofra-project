@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.client.homeFragment.ConfirmOrderFromRoomFragment">
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/fragment_confirm_order_from_room_swip_fresh"
+    android:layout_width="wrap_content"
+    android:layout_height="360dp"
+    android:layout_marginBottom="@dimen/dim_16">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_confirm_order_from_room_recy_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     tools:listitem="@layout/show_recycler_confirem_order_from_room"  />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="30sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/fragment_confirm_order_from_room_txt_total"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rictangle_stroke_grey"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/fragment_confirm_order_from_room_btn_add_more"
+            android:layout_marginTop="@dimen/dim_16"
+            android:layout_marginHorizontal="@dimen/dim_16"
+            android:background="@drawable/rectangle56"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+           android:text="@string/add_more"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <Button
+            android:id="@+id/fragment_confirm_order_from_room_btn_add_confirm"
+            android:layout_marginTop="@dimen/dim_16"
+            android:layout_marginHorizontal="@dimen/dim_16"
+            android:background="@drawable/rectangle56"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="@string/confirm_order"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+
+</LinearLayout>

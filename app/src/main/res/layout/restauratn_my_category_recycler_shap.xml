@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:dragEdge="left"
+    app:mode="same_level"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+
+            android:id="@+id/my_category_recycler_shap_img_delete"
+            android:layout_width="@dimen/dimen_50"
+            android:layout_height="@dimen/dimen_50"
+            android:layout_margin="@dimen/dim_5"
+            android:src="@drawable/messageshape"/>
+
+        <ImageView
+            android:id="@+id/my_category_recycler_shap_img_edit"
+            android:layout_width="@dimen/dimen_50"
+            android:layout_height="@dimen/dimen_50"
+            android:layout_margin="@dimen/dim_5"
+            android:src="@drawable/edit_black_24dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangel_shape_white">
+
+        <ImageView
+         android:id="@+id/my_category_recycler_shap_img_contaner"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/my_category_recycler_shap_txt_categoryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/dim_16"
+            android:layout_toLeftOf="@+id/my_category_recycler_shap_img_contaner"
+            android:text="ffffffffff"
+
+            />
+    </RelativeLayout>
+
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>
+

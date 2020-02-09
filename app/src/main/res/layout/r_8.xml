@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_32">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/___txt_request_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dim_16"
+            android:gravity="center_vertical"
+            android:text="@string/request_details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/___rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/___txt_request_deta"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_16">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/___cimg_restaurant_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="@dimen/dim_8"/>
+
+            <TextView
+                android:id="@+id/___txt_notif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/___cimg_restaurant_image"
+                android:text="@string/add_notification"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/___txt_add_notification"
+                android:layout_toStartOf="@+id/___cimg_restaurant_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_notif"
+                android:text="ddddddd"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/___rl_containe"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50"
+            android:layout_below="@+id/___rl_container"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_16"
+            android:layout_marginVertical="@dimen/dim_16"
+            android:gravity="center_vertical">
+
+
+
+            <TextView
+                android:id="@+id/___txt_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+                android:text="@string/adress"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/___txt_actual_adress"
+                android:layout_toStartOf="@+id/___txt_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ddddddd"
+                android:textSize="23sp"
+                android:layout_marginStart="@dimen/dim_8"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/___rl_conn_"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/___rl_containe"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_5">
+
+            <TextView
+                android:id="@+id/___txt_order_details_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/details"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+
+
+            <TextView
+                android:id="@+id/___txt_meal_1_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_order_details_"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:textDirection="rtl"
+                android:id="@+id/___txt_price_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_order_details_"
+                android:text="dddfffffffffffff"
+                android:layout_marginStart="@dimen/dim_16"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_meal_2_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_meal_1_"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_price_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_price_1"
+                android:text="dddddddd"
+                android:layout_marginStart="@dimen/dim_16"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/___txt_meal_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_meal_2_"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_price_2"
+                android:text="dddddddd"
+                android:layout_marginStart="@dimen/dim_16"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/___rl_con_"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/___rl_conn_"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_5">
+
+            <TextView
+                android:id="@+id/___txt_offer_price_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/price"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="@dimen/dim_8"
+                android:layout_toLeftOf="@+id/___txt_offer_price_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_charg_delivery_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_price"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_charg_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_price"
+                android:layout_toLeftOf="@+id/___txt_charg_delivery_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_totalamou_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_charg_delivery"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_charg_delivery"
+                android:layout_toLeftOf="@+id/___txt_totalamou_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+            <TextView
+                android:id="@+id/___txt_paying__"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_total_amount"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/___txt_total_paying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/___txt_total_amount"
+                android:layout_toLeftOf="@+id/___txt_paying__"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginStart="@dimen/dim_8"
+            android:id="@+id/show_restaurant_new_order_shape_recycler_rl_call"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/___rl_con_"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rectangle56"
+            >
+
+            <TextView
+                android:id="@+id/show_restaurant_new_order_shape_recycler_txt_call"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/arrow_sign_in"
+                android:gravity="center_vertical"
+                android:text="@string/call" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_rl_call"
+
+            android:id="@+id/show_restaurant_new_order_shape_recycler_accept"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/___rl_con_"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rectangle56"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/arrow_sign_in"
+                android:gravity="center_vertical"
+                android:text="@string/accept" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_accept"
+            android:id="@+id/show_restaurant_new_order_shape_recycler_rl_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/___rl_con_"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rectangle56"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/arrow_sign_in"
+                android:gravity="center_vertical"
+                android:text="@string/cancel" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

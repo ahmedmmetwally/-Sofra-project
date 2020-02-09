@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/rectangle_shap2_grey"
+    android:layout_marginHorizontal="@dimen/dim_16"
+    android:padding="@dimen/dim_16">
+
+    <ImageView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_img_customer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dim_32"
+        android:background="@drawable/rectangel_shape_white"
+        android:src="@drawable/person_black_24dp" />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_txt_ccccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_16"
+        android:layout_marginEnd="@dimen/dim_16"
+        android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_img_customer"
+        android:text="@string/customer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_txt_customer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_16"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@+id/show_restaurant_new_order_shape_recycler_txt_ccccc"
+        android:text="@string/tt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_txt_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_txt_ccccc"
+        android:layout_marginHorizontal="@dimen/dim_16"
+        android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_img_customer"
+        android:text="@string/oreder_number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_txt_order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_txt_customer_name"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_txt_ccccc"
+        android:text="@string/tt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_txt_tot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_txt_num"
+        android:layout_marginHorizontal="@dimen/dim_16"
+        android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_img_customer"
+        android:text="@string/total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_order_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_txt_order_number"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@+id/show_restaurant_new_order_shape_recycler_txt_ccccc"
+        android:text="@string/tt"
+
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_txt_adr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_order_total"
+        android:layout_marginHorizontal="@dimen/dim_16"
+        android:layout_toStartOf="@id/show_restaurant_new_order_shape_recycler_img_customer"
+        android:text="@string/adress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/show_restaurant_new_order_shape_recycler_order_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_img_customer"
+        android:layout_alignBaseline="@id/show_restaurant_new_order_shape_recycler_txt_adr"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_toStartOf="@+id/show_restaurant_new_order_shape_recycler_txt_adr"
+        android:text="@string/tt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23sp"
+
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/show_restaurant_new_order_shape_recycler_rl_call"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_restaurant_new_order_shape_recycler_txt_order_number"
+        android:layout_marginTop="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rectangle56">
+
+        <TextView
+            android:id="@+id/show_restaurant_new_order_shape_recycler_txt_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="12dp"
+            android:drawableEnd="@drawable/arrow_sign_in"
+            android:gravity="center_vertical"
+            android:text="@string/call" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+

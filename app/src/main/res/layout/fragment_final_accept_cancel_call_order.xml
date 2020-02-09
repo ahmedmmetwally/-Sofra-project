@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_32"
+    tools:context=".ui.fragment.client.homeFragment.FinalAcceptCancelCallOrderFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/fragment_final_accept_cancel_call_order_txt_request_deta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dim_16"
+            android:gravity="center_vertical"
+            android:text="@string/request_details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_final_accept_cancel_call_order_rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_below="@+id/fragment_final_accept_cancel_call_order_txt_request_deta"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_8">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fragment_final_accept_cancel_call_order_cimg_restaurant_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="@dimen/dim_8" />
+
+
+            <EditText
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_restaurant_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="7dp"
+                android:layout_toStartOf="@+id/fragment_final_accept_cancel_call_order_cimg_restaurant_image"
+                android:text="@string/naem"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_final_accept_cancel_call_order_txt_restaurant_name"
+                android:layout_toStartOf="@+id/fragment_final_accept_cancel_call_order_cimg_restaurant_image"
+                android:text="@string/naem"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_final_accept_cancel_call_order_rl_containe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_final_accept_cancel_call_order_rl_container"
+            android:layout_marginVertical="@dimen/dim_16"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dim_16">
+
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/adress"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_actual_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_8"
+                android:layout_toStartOf="@+id/fragment_final_accept_cancel_call_order_txt_adress"
+                android:text="ddddddd"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_final_accept_cancel_call_order_rec_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/fragment_final_accept_cancel_call_order_rl_containe"
+            android:layout_marginVertical="@dimen/dim_8"
+            tools:listitem="@layout/show_client_room_oreder_shap_recyclerview" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_final_accept_cancel_call_order_rl_con_"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@+id/fragment_final_accept_cancel_call_order_rec_recycler_view"
+            android:layout_marginTop="@dimen/dim_16"
+            android:background="@drawable/rectangle_shap2_grey"
+            android:padding="@dimen/dim_5">
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_offer_price_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/price"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="@dimen/dim_8"
+                android:layout_toLeftOf="@+id/fragment_final_accept_cancel_call_order_txt_offer_price_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_charg_delivery_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_final_accept_cancel_call_order_txt_price"
+                android:layout_alignParentEnd="true"
+                android:text="@string/delivery_charge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_charg_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_final_accept_cancel_call_order_txt_price"
+                android:layout_toLeftOf="@+id/fragment_final_accept_cancel_call_order_txt_charg_delivery_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_totalamou_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_final_accept_cancel_call_order_txt_charg_delivery"
+                android:layout_alignParentEnd="true"
+                android:text="@string/total"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_final_accept_cancel_call_order_txt_charg_delivery"
+                android:layout_toLeftOf="@+id/fragment_final_accept_cancel_call_order_txt_totalamou_"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_paying__"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_final_accept_cancel_call_order_txt_total_amount"
+                android:layout_alignParentEnd="true"
+                android:text="@string/paying_off"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_total_paying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_final_accept_cancel_call_order_txt_total_amount"
+                android:layout_toLeftOf="@+id/fragment_final_accept_cancel_call_order_txt_paying__"
+                android:text="dddddddd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="23sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_final_accept_cancel_call_order_rl_call"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_final_accept_cancel_call_order_rl_con_"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dim_8"
+            android:layout_marginTop="@dimen/dim_25"
+            android:background="@drawable/rectangle56">
+
+            <TextView
+                android:id="@+id/fragment_final_accept_cancel_call_order_txt_call"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/arrow_sign_in"
+                android:gravity="center_vertical"
+                android:text="@string/call" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_final_accept_cancel_call_order_accept"
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_final_accept_cancel_call_order_rl_con_"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dim_25"
+            android:layout_toStartOf="@id/fragment_final_accept_cancel_call_order_rl_call"
+            android:background="@drawable/rectangle56">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/arrow_sign_in"
+                android:gravity="center_vertical"
+                android:text="@string/accept" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_final_accept_cancel_call_order_rl_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_final_accept_cancel_call_order_rl_con_"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dim_25"
+            android:layout_toStartOf="@id/fragment_final_accept_cancel_call_order_accept"
+            android:background="@drawable/rectangle56">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/arrow_sign_in"
+                android:gravity="center_vertical"
+                android:text="@string/cancel" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
